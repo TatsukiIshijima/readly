@@ -19,7 +19,7 @@ jobs:
     services:
       postgres:
         # Docker Hub image
-        image: postgres:17.2-alpine
+        image: postgres:17.4-alpine
         # Provide the password for postgres
         env:
           POSTGRES_USER: root
